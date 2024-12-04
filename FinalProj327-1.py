@@ -53,3 +53,47 @@ defender_level = 40
 win_probability = calculate_win_probability(attacker_type, defender_type, attacker_level, defender_level)
 print(f"Chance of winning for {attacker_type} type (Level {attacker_level}) vs {defender_type} type (Level {defender_level}): {win_probability:.2f}")
 
+# players and pokemon lineup 
+players = { 
+    "Player 1": {"type": "Fire", "level": 0-20},
+    "Player 2": {"type": "Water", "level": 0-20},
+    "Player 3": {"type": "Grass", "level": 0-20},
+    "Player 4": {"type": "Fire", "level": 0-20},
+}
+
+def tournament 
+    print("\begin the pokemon tournament!\n"
+
+    # Round 1 
+    print("round 1: Player 1 vs Player 2"
+    Player 1_win_prob = calculate_win_probability(
+        players["Player 1"]["type"], 
+        players["Player 2"]["type"], 
+        players["Player 1"]["level"], 
+        players["Player 2"]["level"]
+        )
+        winner1 = "player 1" if player1__prob >= 0.5 else "player 2" 
+        print(f"Winner: {winner1}\n")
+
+        print("Round 1: Player 3 vs Player 4")
+        player3_win_prob = calculate_win_probability(
+            players["Player 3"]["type"], 
+            players["Player 4"]["type"], 
+            players["Player 3"]["level"], 
+            players["Player 4"]["level"]  
+         )   
+         winner2 = "player 3" if player3_win_prob >= 0.5 else "player4"
+         print(f"Winner: {winner2}\n")
+
+          # final match 
+          print "FInal Match: {} vs {}".Format(winner,winner))
+          final_win_prob = calculate_win_probability(
+             players[winner1]["type"], 
+             players[winner2]["type"], 
+             players[winner1]["level"], 
+             players[winner2]["level"]
+          )
+
+          Champion = winner1 if final_win_prob >= 0.5 else winner2 
+          print(f"Champion of pokemon tournament: {poekmon champion}")
+          
